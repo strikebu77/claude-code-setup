@@ -3,8 +3,8 @@ Conduct a comprehensive security review of this codebase following the OWASP Cod
 ### IMPORTANT REQUIREMENTS:
 
 - **DO NOT WRITE CODE** - perform security review only
-- Save results to file `.claude/docs/security-review.md`
-- If file `.claude/docs/security-review.md` already exists:
+- Save results to file `.claude/reviews/security.md`
+- If file `.claude/reviews/security.md` already exists:
   1. First analyze existing results
   2. Note which issues have been fixed
   3. Conduct a new full review
