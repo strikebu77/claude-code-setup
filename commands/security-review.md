@@ -1,16 +1,16 @@
-Conduct a comprehensive security analysis of this codebase following the OWASP Code Review Guide v2.0 methodology.
+Conduct a comprehensive security review of this codebase following the OWASP Code Review Guide v2.0 methodology.
 
 ### IMPORTANT REQUIREMENTS:
 
-- **DO NOT WRITE CODE** - perform security analysis only
-- Save results to file `.claude/docs/security-analysis.md`
-- If file `.claude/docs/security-analysis.md` already exists:
+- **DO NOT WRITE CODE** - perform security review only
+- Save results to file `.claude/docs/security-review.md`
+- If file `.claude/docs/security-review.md` already exists:
   1. First analyze existing results
   2. Note which issues have been fixed
-  3. Conduct a new full analysis
+  3. Conduct a new full review
   4. Compare results and indicate changes
 
-### 1. CONTEXTUAL ANALYSIS
+### 1. CONTEXTUAL REVIEW
 
 - Determine application type (web, mobile, API, desktop)
 - Identify programming languages and frameworks used
@@ -84,14 +84,14 @@ Systematically check for the following vulnerability classes:
 - Proper use of built-in security mechanisms
 - Compliance with technology-specific best practices
 
-### 4. ARCHITECTURAL ANALYSIS
+### 4. ARCHITECTURAL REVIEW
 
 - Application layer separation
 - Principle of least privilege
 - Defense in depth
 - Fail securely principles
 
-### 5. BUSINESS LOGIC ANALYSIS
+### 5. BUSINESS LOGIC REVIEW
 
 - Business rule bypass
 - Race conditions
@@ -109,11 +109,11 @@ Systematically check for the following vulnerability classes:
 #### File header:
 
 ```markdown
-# Codebase Security Analysis
+# Codebase Security Review
 
-**Analysis Date**: [current date]
-**Analysis Version**: [version number if repeat analysis]
-**Status**: [Initial Analysis / Repeat Analysis]
+**Review Date**: [current date]
+**Review Version**: [version number if repeat review]
+**Status**: [Initial Review / Repeat Review]
 ```
 
 #### For each vulnerability found:
@@ -128,7 +128,7 @@ Systematically check for the following vulnerability classes:
 
 ### ACTION PLAN (TODO LIST):
 
-After analysis, create a tasks section in the following format:
+After review, create a tasks section in the following format:
 
 ```markdown
 ## Vulnerability Remediation Plan
@@ -168,10 +168,10 @@ Rank found vulnerabilities by:
 - Ease of exploitation
 - Potential damage
 
-### COMPARISON WITH PREVIOUS ANALYSIS (if applicable):
+### COMPARISON WITH PREVIOUS REVIEW (if applicable):
 
 ```markdown
-## Comparison with Previous Analysis
+## Comparison with Previous Review
 
 ### Fixed Vulnerabilities:
 
@@ -192,4 +192,4 @@ Rank found vulnerabilities by:
 - Overall security level: [Improved/Degraded/No Change]
 ```
 
-Begin analysis with the most critical system components (authentication, authorization, payment processing, personal data handling).
+Begin review with the most critical system components (authentication, authorization, payment processing, personal data handling).
